@@ -1,0 +1,47 @@
+body {
+	background-image: url("../image/fondo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+.h1 {
+	font-family: monospace;
+	color: #858ae3;
+	font-size: 100%;
+	text-align: center;
+}
+
+.comenzar {
+	font-family: monospace;
+	color: #e7c6ff;
+	text-align: center;
+	font-size: 300%;
+	margin: -15.5%;
+	position: inherit;
+}
+
+.footer {
+  margin: 5;
+}
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: calc(100% - 4rem);
+}
+
+.footer {
+	font-family: monospace;
+	width: 100%;
+	margin-top: 50px;
+	color: whitesmoke;
+	text-align: center;
+	background-color: #000000;
+	opacity:0.8;
+	height: 20px;
+	position: fixed;
+  	bottom: 0; 
+}
